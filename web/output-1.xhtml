@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <h1>Loan Calculate</h1>
+        <div>
+            Loan Amount : #{loanController.loanAmount}
+            <br></br>
+            Annual Interest Rate : #{loanController.annualInterestRate}
+            <br></br>
+            Number of Years : #{loanController.numberOfYears}
+            <br></br>
+            Monthly Payment : #{loanController.calcMonthly()}
+            <br></br>
+            Total Payment : #{loanController.calcTotal()}
+            
+        </div>
+    </body>
+</html>
